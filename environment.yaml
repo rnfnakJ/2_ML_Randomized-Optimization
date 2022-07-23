@@ -1,0 +1,17 @@
+---
+
+name: AI
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - pandas
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - xlrd
+  - pip
+  - pip:
+      - mlrose_hiive
+      - mlrose
